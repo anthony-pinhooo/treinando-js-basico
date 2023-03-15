@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Names</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-header">
+                <a href="#" id="h3-name-header">Names</a>
+            </div>
+            <nav class="nav-header">
+                <a href="#" class="nav-header-option">Home</a>
+                <a href="#" class="nav-header-option">About</a>
+                <a href="#" class="nav-header-option">Contact</a>
+            </nav>
+        </header>
+        <main class="main-content">
+            <section class="about-content">
+                <h1 id="about-title">
+                    This page is just to put your name
+                </h1>
+                <h2 id="about-subtitle">You ask yourself "what's the purpose of the page?" and I answer you: "only for study!"</h2>
+                <p id="about-description">
+                    I'm studying JS and I need to train to absorb the maximun amount of content 
+                </p>
+            </section>
+            <section class="name-area">
+                <div class="inform-name">
+                    <h2 id="inform-title">Informations</h2>
+                    <div class="name">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your fullname" class="input-inform">
+                    </div>
+                    <div class="age">
+                        <label for="age">Age: </label>
+                        <input type="number" name="age" id="age" class="input-inform">
+                    </div>
+                    <div class="hobbie">
+                        <label for="hobbie">Hobbie: </label>
+                        <input type="text" name="hobbie" id="hobbie" class="input-inform">
+                    </div>
+                    <div class="description">
+                        <label for="lDescription">Description: </label>
+                        <input type="text" name="lDescription" id="lDescription" placeholder="Enter a little description about yourself" class="input-inform">
+                    </div>
+                    <button onclick="addCard()" id="btn-send-inform">Add Information</button>
+                    <button id="btn-send-inform" onclick="addMsg()">Console</button>
+                </div>
+            </section>
+            <section class="card-area" id="card-area">
+                <div class="item-card">
+                    <h3>Anthony</h3>
+                    <h3>21</h3>
+                    <p>I like play Counter-Strike GO and shit talk with other players</p>
+                    <p>I'm a man with a dream to become a gamedeveloper or website developer</p>
+                </div>     
+            </section>
+        </main>
+        <footer class="footer">
+            <h3>Footer</h3>
+        </footer>
+    </div>
+</body>
+</html>
